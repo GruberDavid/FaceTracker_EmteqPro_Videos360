@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1872310470663295402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1872310470663295396}
+  - component: {fileID: 1872310470663295397}
+  m_Layer: 0
+  m_Name: VideoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1872310470663295396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872310470663295402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1872310470663295397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872310470663295402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d5ed880902403409bed6eb42b5e3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allRandom: 1
+  videos:
+  - {fileID: 32900000, guid: 0777de58f021e994280ee0e79d282401, type: 3}
+  - {fileID: 32900000, guid: 7c95fbfb917fa52498542b74c409225a, type: 3}
+  - {fileID: 32900000, guid: ab493ec5b84d0fb45af8bcd88bfaff46, type: 3}
+  - {fileID: 32900000, guid: 76d45a19ca98d734da6ad19cf9f3c040, type: 3}
+  - {fileID: 32900000, guid: 3fdeabfa22bb3424bb00b871cf34f356, type: 3}
+  - {fileID: 32900000, guid: 12d19373e52a2804aaf365b2fa37db97, type: 3}
+  videoPlayer: {fileID: 0}
+  videoRenderTexture: {fileID: 8400000, guid: 4f7fbe5e5d7611f45977ca10ad588b7b, type: 2}
+  defaultSkyboxMaterial: {fileID: 2100000, guid: 3a408e788dcbed6429c8d22a01b32a76,
+    type: 2}
+  videoMaterial: {fileID: 2100000, guid: 0e759956ee851c742b81f5ff73a23a79, type: 2}
