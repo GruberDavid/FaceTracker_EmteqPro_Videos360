@@ -10,8 +10,8 @@ from pandas.api.types import is_numeric_dtype
 import re
 from io import StringIO
 
-#folderPath = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part1\\'
-folderPath = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part2\\'
+#folderPath = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part1\\'
+folderPath = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part2\\'
 nbParticipant = 15
 #nbVideos = 7
 nbVideos = 13
