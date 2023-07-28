@@ -17,7 +17,7 @@ for idVideo in range(7):
     averageValence = 0
     for idParticipant in range(nbParticipants):
         if str(idVideo) not in videoIDsToRemove[idParticipant]:
-            df = pd.read_csv('C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part1\\'+str(idParticipant)+'_rating.csv', sep=';')
+            df = pd.read_csv('C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part1\\'+str(idParticipant)+'_rating.csv', sep=';')
             arousal = df.loc[df['VideoID'] == idVideo, 'Arousal'].values[0]
             valence = df.loc[df['VideoID'] == idVideo, 'Valence'].values[0]
             if averageArousal == 0:
@@ -36,7 +36,7 @@ for idVideo in range(7, nbVideos):
     averageValence = 0
     for idParticipant in range(nbParticipants):
         if str(idVideo) not in videoIDsToRemove[idParticipant]:
-            df = pd.read_csv('C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part2\\'+str(idParticipant)+'_rating.csv', sep=';')
+            df = pd.read_csv('C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part2\\'+str(idParticipant)+'_rating.csv', sep=';')
             arousal = df.loc[df['VideoID'] == idVideo, 'Arousal'].values[0]
             valence = df.loc[df['VideoID'] == idVideo, 'Valence'].values[0]
             if averageArousal == 0:
