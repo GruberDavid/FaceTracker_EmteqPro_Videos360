@@ -159,20 +159,6 @@ for seed in [0]:#, 10, 27, 42, 72]:
     Y_pred = dummy_clf.predict(X_test)
     accuracy = dummy_clf.score(X_test, Y_test)
     print('Accuracy : ', accuracy)
-    '''titles_options = [
-        ("Confusion matrix", None),
-        ("Normalized confusion matrix", "true"),
-    ]
-    for title, normalize in titles_options:
-        disp = ConfusionMatrixDisplay.from_estimator(
-            dummy_clf,
-            X_test,
-            Y_test,
-            cmap=plt.cm.Blues,
-            normalize=normalize,
-        )
-        disp.ax_.set_title(title)
-    plt.show()'''
 
 
     print('------ SVM ------')
@@ -228,20 +214,3 @@ for seed in [0]:#, 10, 27, 42, 72]:
         )
         disp.ax_.set_title(title)
     plt.show()
-
-
-# linear
-'''def f_importances(coef, names):
-    imp = coef
-    imp,names = zip(*sorted(zip(imp,names)))
-    plt.barh(range(len(names)), imp, align='center')
-    plt.yticks(range(len(names)), names)
-    plt.show()
-f_importances(clfSVC.coef_[0], featureNames)'''
-
-# rbf
-'''perm_importance = permutation_importance(clfSVC, X_test, Y_test)
-sorted_idx = perm_importance.importances_mean.argsort()
-plt.barh(np.array(featureNames)[sorted_idx], perm_importance.importances_mean[sorted_idx])
-plt.xlabel("Permutation Importance")
-plt.show()'''
