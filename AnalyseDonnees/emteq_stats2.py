@@ -186,10 +186,10 @@ high_arousal_video = pd.DataFrame()
 
 for i in range(nbParticipants):
     print(i)
-    path_to_csv_file = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\'+str(i)+'_Part1.csv'
-    path_to_csv_file2 = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\'+str(i)+'_Part2.csv'
-    path_to_event_markers_file = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\'+str(i)+'_Part1.json'
-    path_to_event_markers_file2 = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\'+str(i)+'_Part2.json'
+    path_to_csv_file = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\'+str(i)+'_Part1.csv'
+    path_to_csv_file2 = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\'+str(i)+'_Part2.csv'
+    path_to_event_markers_file = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\'+str(i)+'_Part1.json'
+    path_to_event_markers_file2 = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\'+str(i)+'_Part2.json'
     data_csv, emg_order = importdataCSV2DF(path_to_csv_file)
     data_csv2, emg_order2 = importdataCSV2DF(path_to_csv_file2)
     data, events_labels, events_timestamps = synchronize_data_with_event_markers(data_csv, path_to_event_markers_file)
