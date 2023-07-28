@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 #pd.set_option("display.max_rows", 999)
 
-folderPart1 = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part1\\'
-folderPart2 = 'C:\\Users\\Master\\Desktop\\Emteq\\DataExpe\\DataExpe\\Part2\\'
+folderPart1 = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part1\\'
+folderPart2 = 'C:\\Users\\Master\\Desktop\\Gruber\\DonneesExpe\\DataExpe\\Part2\\'
 
 nbVideos = 13
 nbParticipants = 15
